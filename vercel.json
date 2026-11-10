@@ -1,0 +1,17 @@
+{
+  "version": 2,
+  "cleanUrls": true,
+  "trailingSlash": false,
+  "routes": [
+    { "src": "/p/freefire-diamonds.html", "dest": "/p/freefire-diamonds.html" },
+    { "src": "/p/freefire-likes.html", "dest": "/p/freefire-likes.html" },
+    { "src": "/p/home-en.html", "dest": "/p/home-en.html" },
+    { "src": "/p/about.html", "dest": "/p/about.html" },
+    { "src": "/p/privacy.html", "dest": "/p/privacy.html" },
+    { "src": "/p/terms.html", "dest": "/p/terms.html" },
+    { "src": "/diamonds", "dest": "/p/freefire-diamonds.html" },
+    { "src": "/likes", "dest": "/p/freefire-likes.html" },
+    { "src": "/en", "dest": "/p/home-en.html" },
+    { "src": "/(.*)", "dest": "/index.html" }
+  ]
+}
